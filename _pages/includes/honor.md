@@ -1,7 +1,4 @@
 # 🎖 Honors and Awards
-- **2024 RAS Travel Grant**  
-  *2024 IEEE International Conference on Robotics and Automation*
-
 - **2021 Guangdong Youth May Fourth Medal**  
   *Recognized as an outstanding member of the awarded collective*
 
@@ -19,3 +16,7 @@
 
 - **2015 Dalian City Star Volunteer**  
   *Recognized for outstanding volunteer service*
+
+# 🎖 Grant
+- **2024 RAS Travel Grant**  
+  *2024 IEEE International Conference on Robotics and Automation*
