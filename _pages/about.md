@@ -3,7 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from: # redirect_from 是 Jekyll 中用于设置页面重定向的配置参数。在您的 about.md 文件中，它用于将旧的网址（如 /about/ 和 /about.html）自动重定向到新的页面（即当前页面）。
   - /about/
   - /about.html
 ---
