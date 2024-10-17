@@ -1,3 +1,10 @@
+Advanced Robotics and Control Systems Design, including:
+- Kinematics and dynamics, especially in redundant manipulators
+- Control Systems
+- AI-driven in Robotics
+- Robotic design, particularly for specialized environments
+- Soft manipulators
+
 ## 🎓 Education
 
 **Ph.D. in Mechanical Engineering (2020--2024)**  
