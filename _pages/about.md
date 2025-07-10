@@ -17,13 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I'm Wenshuo Li, a PH.D student at Harbin Institute of Technology.
+Hi, I'm Wenshuo Li. I recently earned my Ph.D. in Mechanical Engineering from Harbin Institute of Technology. Currently, I’m working at BYD as a Senior Algorithm Engineer.
 
  <a href='https://scholar.google.com/citations?user=lQhUQnUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
 
 Advanced Robotics and Control Systems Design, including:
 - Kinematics and dynamics, especially in redundant manipulators
-- Control Systems
+- Dual-arm manipulation
+- Control systems
 - AI-driven in Robotics
 - Robotic design, particularly for specialized environments
 - Soft manipulators
