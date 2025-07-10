@@ -9,8 +9,6 @@ redirect_from:
   - /projects.html
 ---
 
-<span class='anchor' id='projects'></span>
-
 ## Featured Projects
 
 ### 1. **Robotic Manipulation in Harsh Environments**
