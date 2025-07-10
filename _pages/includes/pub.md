@@ -72,7 +72,7 @@ YingLong Chen, **WenShuo Li**, Qiang Guo, YongJun Gong, "Kinematics modeling of 
 
 ### Chinese journal paper
 ---
-- 	
+- [基于Neo-Hookean模型的软体机械臂变曲率运动学建模研究](https://doi.org/10.13462/j.cnki.mmtamt.2020.12.008). 组合机床与自动化加工技术, 2020, 0(12): 31-34 
 
 ### Patents
 ---
