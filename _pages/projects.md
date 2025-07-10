@@ -1,7 +1,7 @@
 ---
-# layout: default
+layout: default
 title: "Projects"
-permalink: /
+permalink: /projects/
 excerpt: "Explore the projects I've been working on, including cutting-edge robotics research, design, and development."
 author_profile: true
 redirect_from:
