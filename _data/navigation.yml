@@ -1,4 +1,4 @@
-# main links links
+# main links
 main:
   - title: "About me"
     url: "/about/"
@@ -17,3 +17,10 @@ main:
 
   - title: "Work & Internship"
     url: "/zh-cn/#-gzsx"
+
+<section id="-xl">
+## Education
+- 2020–2024: Harbin Institute of Technology, Ph.D.
+- 2017–2020: ...
+
+</section>
