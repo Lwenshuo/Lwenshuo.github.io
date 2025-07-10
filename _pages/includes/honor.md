@@ -1,5 +1,8 @@
 
 # 🎖 Honors and Awards
+- **2024 BYD scholarship**  
+  *Awarded annually for outstanding engineering performance and hands-on project experience*
+
 - **2024 RAS Travel Grant**  
   *2024 IEEE International Conference on Robotics and Automation*
 
