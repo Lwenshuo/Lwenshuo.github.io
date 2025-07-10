@@ -1,4 +1,3 @@
-<span class='anchor' id='awards'></span>
 
 # 🎖 Honors and Awards
 - **2024 RAS Travel Grant**  

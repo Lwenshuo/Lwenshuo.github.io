@@ -29,6 +29,7 @@ Advanced Robotics and Control Systems Design, including:
 - Robotic design, particularly for specialized environments
 - Soft manipulators
 
+<span class='anchor' id='education'></span>
 {% include_relative includes/intro.md %}
 
 {% include_relative includes/news.md %}
@@ -36,6 +37,7 @@ Advanced Robotics and Control Systems Design, including:
 <span class='anchor' id='publications'></span>
 {% include_relative includes/pub.md %}
 
+<span class='anchor' id='awards'></span>
 {% include_relative includes/honor.md %}
 
 {% include_relative includes/others.md %}
