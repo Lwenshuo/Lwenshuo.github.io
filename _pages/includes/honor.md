@@ -1,3 +1,5 @@
+<span class='anchor' id='awards'></span>
+
 # 🎖 Honors and Awards
 - **2024 RAS Travel Grant**  
   *2024 IEEE International Conference on Robotics and Automation*

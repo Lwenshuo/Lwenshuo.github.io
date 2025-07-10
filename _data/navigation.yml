@@ -1,26 +1,20 @@
 # main links
 main:
   - title: "About me"
-    url: "/about/"
+    url: "#about"
 
   - title: "Education"
-    url: "/zh-cn/#-xl"
+    url: "#education"
 
   - title: "Publications"
-    url: "/zh-cn/#-lwzl"
+    url: "#-lwzl"
 
   - title: "Awards"
-    url: "/zh-cn/#-ryjx"
+    url: "#award"
 
   - title: "Projects"
-    url: "/zh-cn/#-xshy"
+    url: "/projects/"
 
   - title: "Work & Internship"
-    url: "/zh-cn/#-gzsx"
+    url: "/work/"
 
-<section id="-xl">
-## Education
-- 2020–2024: Harbin Institute of Technology, Ph.D.
-- 2017–2020: ...
-
-</section>

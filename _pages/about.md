@@ -15,7 +15,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<span class='anchor' id='about'></span>
 
 Hi, I'm Wenshuo Li. I recently earned my Ph.D. in Mechanical Engineering from Harbin Institute of Technology. Currently, I’m working at BYD as a Senior Algorithm Engineer.
 
@@ -38,11 +38,4 @@ Advanced Robotics and Control Systems Design, including:
 {% include_relative includes/honor.md %}
 
 {% include_relative includes/others.md %}
-
-<span class='anchor' id='-xl'></span>
-
-<span class='anchor' id='-lwzl'></span>
-
-<span class='anchor' id='-gzsx'></span>
-
 

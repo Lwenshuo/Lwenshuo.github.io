@@ -1,3 +1,4 @@
+<span class='anchor' id='publications'></span>
 
 # 📖 Publications 
 
