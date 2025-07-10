@@ -33,6 +33,7 @@ Advanced Robotics and Control Systems Design, including:
 
 {% include_relative includes/news.md %}
 
+<span class='anchor' id='publications'></span>
 {% include_relative includes/pub.md %}
 
 {% include_relative includes/honor.md %}
