@@ -160,3 +160,9 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# HTML New pages
+collections:
+  pages:
+    output: true
+    permalink: /:basename/
