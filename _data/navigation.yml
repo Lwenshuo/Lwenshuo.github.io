@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "About me"
-    url: "/zh-cn/#about-me"
+    url: "/about/"
 
   - title: "Education"
     url: "/zh-cn/#-xl"
