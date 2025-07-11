@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_sub
 title: "Projects"
 permalink: /projects/
 author_profile: true
