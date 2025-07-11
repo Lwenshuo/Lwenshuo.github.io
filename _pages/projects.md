@@ -1,5 +1,5 @@
 ---
-layout: custom_page
+layout: default_sub
 title: ""
 permalink: /projects/
 excerpt: "Explore the projects I've been working on, including cutting-edge robotics research, design, and development."

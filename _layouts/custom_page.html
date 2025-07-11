@@ -1,30 +1,47 @@
 ---
-layout: default
+layout: compress
 ---
 
-<body>
-  {% include browser-upgrade.html %}
-  {% include masthead.html %}
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-  <div id="main" role="main">
-    {% include sidebar.html %}
+  <body>
 
-    <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-      {% if page.title %}
-        <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
-      {% endif %}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-      <div class="page__inner-wrap">
-        <header>
-          <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
-        </header>
+    <div id="main" role="main">
+      {% include sidebar.html %}
+    
+      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        <div class="page__inner-wrap">
+          <section class="page__content" itemprop="text">
+            {{ content }}
+          </section>
+        </div>
+      </article>
+    </div>
 
-        <section class="page__content" itemprop="text">
-          {{ content }}
-        </section>
-      </div>
-    </article>
-  </div>
+    {% include scripts.html %}
 
-  {% include scripts.html %}
-</body>
+<div class="footer_site">
+<hr/>
+
+<div class="footer_copyright">
+  © 2024 HIT · Wenshuo | base on &nbsp
+  <a class="page_a"  href="https://github.com/RayeRen/acad-homepage.github.io">
+  acad
+  </a>&nbsp模板
+</div>
+
+<div class="footer_copyright">
+  Thanks to Jian Tang and Yi Ren for the website design and implementation.
+</div>
+</div>
+  </body>
+</html>
