@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "Projects"
+layout: custom_page
+title: ""
 permalink: /projects/
 excerpt: "Explore the projects I've been working on, including cutting-edge robotics research, design, and development."
 author_profile: true
