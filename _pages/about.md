@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about'></span>
 
-Hi, I'm Wenshuo Li. I received my Ph.D. in Mechanical Engineering from Harbin Institute of Technology (Shenzhen) in 2024, and I am currently working at BYD as a Senior Algorithm Engineer.
+Hi, I'm Wenshuo Li. I received my Ph.D. in Mechanical Engineering from Harbin Institute of Technology (Shenzhen) in 2024, and I am currently a Postdoctoral Fellow at The University of Hong Kong (HKU).
 
 My current work focuses on robotic algorithm and control development for industrial scenarios, including:
 - Kinematic and dynamic modeling of high-DOF manipulators
