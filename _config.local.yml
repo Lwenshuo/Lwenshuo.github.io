@@ -1,0 +1,8 @@
+# Local development overrides.
+# Usage:
+#   bundle exec jekyll serve --config _config.yml,_config.local.yml --livereload
+#   bundle exec jekyll build --config _config.yml,_config.local.yml
+
+local_dev_mode: true
+url: "http://127.0.0.1:4000"
+baseurl: ""

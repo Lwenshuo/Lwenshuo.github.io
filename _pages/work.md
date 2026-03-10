@@ -8,6 +8,35 @@ redirect_from:
   - /work.html
 ---
 
+<div class="lang-switch" style="display:flex;justify-content:flex-start;margin:0 0 1rem 0;font-size:0.95rem;">
+  <a href="{{ '/work/' | relative_url }}" id="lang-en" style="font-weight:700;text-decoration:underline;">EN</a>
+  <span style="margin:0 0.5rem;">|</span>
+  <a href="{{ '/zh/work/' | relative_url }}" id="lang-zh">中文</a>
+</div>
+
+<script>
+  (function () {
+    var enPath = "{{ '/work/' | relative_url }}";
+    var zhPath = "{{ '/zh/work/' | relative_url }}";
+    var currentPath = window.location.pathname;
+    var preferred = localStorage.getItem("preferredLang");
+
+    function normalize(path) {
+      return path.endsWith("/") ? path : path + "/";
+    }
+
+    if (preferred === "zh" && normalize(currentPath) === normalize(enPath)) {
+      window.location.replace(zhPath);
+      return;
+    }
+
+    var enLink = document.getElementById("lang-en");
+    var zhLink = document.getElementById("lang-zh");
+    if (enLink) enLink.addEventListener("click", function () { localStorage.setItem("preferredLang", "en"); });
+    if (zhLink) zhLink.addEventListener("click", function () { localStorage.setItem("preferredLang", "zh"); });
+  })();
+</script>
+
 ## Work Experience
 
 ### Postdoctoral Fellow, The University of Hong Kong (HKU) (2025.09 - Present)
