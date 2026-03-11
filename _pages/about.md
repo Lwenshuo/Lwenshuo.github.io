@@ -20,8 +20,6 @@ redirect_from:
 
 Hi, I'm Wenshuo Li. I received my Ph.D. in Mechanical Engineering from Harbin Institute of Technology (Shenzhen) in 2024, and I am currently a Postdoctoral Fellow at The University of Hong Kong (HKU).
 
-<p><a href="{{ '/docs/CV_Wenshuo_upload.pdf' | relative_url }}" download>Download CV</a></p>
-
 My current work focuses on robotic algorithm and control development for industrial scenarios, including:
 - Kinematic and dynamic modeling of high-DOF manipulators
 - Integrated force-position control and contact-aware manipulation
