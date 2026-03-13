@@ -78,4 +78,10 @@ YingLong Chen, **WenShuo Li**, Qiang Guo, YongJun Gong, "Kinematics modeling of 
 ### Patents
 ---
 ## Chinese Patents
-- 徐文福, 黄曦, `李文朔`, 袁晗, 梁斌 . 绳驱柔性机械臂的闭环运动控制方法及系统. [[website]](https://www.patentstar.com.cn/Search/Detail?ANE=9GGF3BCA8BFA6CDA7ECA8DFA8ECA9GIF9AHA9FCEFGHA5BEA)
+- 徐文福, 黄曦, `李文朔`, 袁晗, 梁斌. 绳驱柔性机械臂的闭环运动控制方法及系统 (授权号: CN113386124B). [[website]](https://patents.google.com/patent/CN113386124B/zh)
+- 徐文福, `李文朔`, 林博洋, 闫磊, 梁斌. 一种绳驱柔性机械臂的整臂力感知方法、装置和存储介质 (授权号: CN115890673A). [[website]](https://patents.google.com/patent/CN115890673A/zh)
+- 徐文福, 林博洋, `李文朔`, 闫磊, 梁斌. 一种多重空间力位融合的绳驱柔性机械臂闭环控制方法 (授权号: CN116100540A). [[website]](https://patents.google.com/patent/CN116100540A/zh)
+- 徐文福, 林博洋, `李文朔`, 闫磊, 梁斌. 一种绳驱柔性机械臂操作空间柔顺控制方法及装置 (授权号: CN115723139A). [[website]](https://patents.google.com/patent/CN115723139A/zh)
+- 徐文福, 李君祥, `李文朔`, 梁斌. 联动调节结构及绳驱分段联动柔性机械臂 (公开号: CN116834064A). [[website]](https://patents.google.com/patent/CN116834064A/zh)
+- 徐文福, 黄一帆, `李文朔`, 袁晗, 梁斌. 一种高刚度低回隙的闭环绳驱柔性臂驱动电控一体装置 (公开号: CN114670182A). [[website]](https://patents.google.com/patent/CN114670182A/zh)
+- 陈辰, 贺亚衣, 薛景涛, 徐文福, 程洪洋, `李文朔`, 袁晗. 柔性机械臂及其控制方法、计算机装置 (公开号: CN117917308A). [[website]](https://patents.google.com/patent/CN117917308A/zh)

@@ -12,7 +12,11 @@ var $hlinks = $('#site-nav .hidden-links');
 
 var breaks = [];
 
+$btn.addClass('hidden');
+$hlinks.addClass('hidden');
+
 function updateNav() {
+  return;
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
@@ -65,8 +69,7 @@ $(window).resize(function() {
 });
 
 $btn.on('click', function() {
-  $hlinks.toggleClass('hidden');
-  $(this).toggleClass('close');
+  return;
 });
 
 updateNav();

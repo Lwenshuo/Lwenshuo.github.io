@@ -43,6 +43,7 @@ redirect_from:
 - Conducting postdoctoral research in robotics and control.
 - Focusing on modeling, planning, and control for high-performance robotic manipulation systems.
 - Advancing robust motion/force strategies for complex interaction tasks.
+- Developing digital twin and simulation-validation pipelines for the hybrid Pose Adjustment (`hypa`) project.
 
 ### Senior Algorithm Engineer, BYD (2025.02 - 2025.07)
 - Developing and deploying robotics algorithms for industrial manipulation tasks.

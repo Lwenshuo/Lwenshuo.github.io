@@ -1,21 +1,70 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
+      {% assign is_zh_page = false %}
+      {% if page.url == '/zh/' or page.url contains '/zh/' %}
+        {% assign is_zh_page = true %}
+      {% endif %}
+
+      {% assign switch_url = '/zh/' | relative_url %}
+      {% assign switch_icon = '/images/cn.svg' | relative_url %}
+      {% assign switch_label = '中文' %}
+
+      {% if page.url == '/projects/' %}
+        {% assign switch_url = '/zh/projects/' | relative_url %}
+      {% elsif page.url == '/work/' %}
+        {% assign switch_url = '/zh/work/' | relative_url %}
+      {% elsif page.url == '/projects/hypa-dt/' %}
+        {% assign switch_url = '/zh/projects/hypa-dt/' | relative_url %}
+      {% elsif page.url == '/zh/' %}
+        {% assign switch_url = '/' | relative_url %}
+      {% elsif page.url == '/zh/projects/' %}
+        {% assign switch_url = '/projects/' | relative_url %}
+      {% elsif page.url == '/zh/work/' %}
+        {% assign switch_url = '/work/' | relative_url %}
+      {% elsif page.url == '/zh/projects/hypa-dt/' %}
+        {% assign switch_url = '/projects/hypa-dt/' | relative_url %}
+      {% endif %}
+
+      {% if is_zh_page %}
+        {% assign switch_icon = '/images/en.svg' | relative_url %}
+        {% assign switch_label = 'English' %}
+      {% endif %}
+
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
-            <a href="https://Lwenshuo.github.io/" target="_self">
-              <img class="svg" src="/images/en.svg" width="20pt"> 
-              English
+            <a href="{{ switch_url }}" id="masthead-lang-switch" data-lang="{% if is_zh_page %}en{% else %}zh{% endif %}" target="_self">
+              <img class="svg" src="{{ switch_icon }}" width="20pt">
+              {{ switch_label }}
             </a>
           </li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
+          {% if is_zh_page %}
+            <li class="masthead__menu-item"><a href="{{ '/zh/#about' | relative_url }}">关于我</a></li>
+            <li class="masthead__menu-item"><a href="{{ '/zh/#education' | relative_url }}">教育经历</a></li>
+            <li class="masthead__menu-item"><a href="{{ '/zh/#publications' | relative_url }}">论文成果</a></li>
+            <li class="masthead__menu-item"><a href="{{ '/zh/#awards' | relative_url }}">荣誉奖励</a></li>
+            <li class="masthead__menu-item"><a href="{{ '/zh/projects/' | relative_url }}">项目</a></li>
+            <li class="masthead__menu-item"><a href="{{ '/zh/work/' | relative_url }}">工作与实习</a></li>
+          {% else %}
+            {% for link in site.data.navigation.main %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+          {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <script>
+        (function () {
+          var switchLink = document.getElementById("masthead-lang-switch");
+          if (!switchLink) return;
+          switchLink.addEventListener("click", function () {
+            var nextLang = switchLink.getAttribute("data-lang");
+            if (nextLang) localStorage.setItem("preferredLang", nextLang);
+          });
+        })();
+      </script>
     </div>
   </div>
 </div>
