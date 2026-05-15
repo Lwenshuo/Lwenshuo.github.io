@@ -6,64 +6,96 @@
 
 ## Journal
 ---
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tmech 2024</div><img src='images/pub/Tmech24.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class="pub-list">
+  <article class="pub-card">
+    <div class="pub-card__media">
+      <span class="pub-card__badge">TMECH 2024</span>
+      <img src="/images/pub/Tmech24.png" alt="Hybrid tension-position control for cable-driven serial manipulator">
+    </div>
+    <div class="pub-card__body">
+      <h3 class="pub-card__title"><a href="https://doi.org/10.1109/TMECH.2024.3406920">Hybrid Tension-Position Control</a></h3>
+      <p class="pub-card__authors">Bin Liang, <strong>Wenshuo Li*</strong>, Boyang Lin, Lei Yan, Xueqian Wang, Wenfu Xu*</p>
+      <p class="pub-card__venue">"Hybrid Tension-Position Control of Cable-Driven Serial Manipulator to Improve Accuracy and Avoid Cable Slack and Breakage," <em>IEEE/ASME Transactions on Mechatronics</em>, accepted.</p>
+      <div class="pub-card__links">
+        <a class="pub-card__link" href="https://doi.org/10.1109/TMECH.2024.3406920">DOI</a>
+      </div>
+    </div>
+  </article>
 
-[Hybrid Tension-Position Control](...) \\
-Bin Liang, **Wenshuo Li***, ...
+  <article class="pub-card">
+    <div class="pub-card__media">
+      <span class="pub-card__badge">TMECH 2023</span>
+      <img src="/images/pub/Tmech23.png" alt="Force sensing and compliance control for a cable-driven redundant manipulator">
+    </div>
+    <div class="pub-card__body">
+      <h3 class="pub-card__title"><a href="https://doi.org/10.1109/TMECH.2023.3263922">Force Sensing and Compliance Control</a></h3>
+      <p class="pub-card__authors"><strong>Wenshuo Li</strong>, Xi Huang, Lei Yan, Hongyang Cheng, Bin Liang, Wenfu Xu</p>
+      <p class="pub-card__venue">"Force Sensing and Compliance Control for a Cable-Driven Redundant Manipulator," <em>IEEE/ASME Transactions on Mechatronics</em>, vol. 29, 2024.</p>
+      <div class="pub-card__links">
+        <a class="pub-card__link" href="https://doi.org/10.1109/TMECH.2023.3263922">DOI</a>
+      </div>
+    </div>
+  </article>
 
-**Project**
+  <article class="pub-card">
+    <div class="pub-card__media">
+      <span class="pub-card__badge">RA-L 2023</span>
+      <img src="/images/pub/RAL23.png" alt="Composite linkage mechanism for cable-driven segmented manipulator">
+    </div>
+    <div class="pub-card__body">
+      <h3 class="pub-card__title"><a href="https://doi.org/10.1109/lra.2023.3330049">Composite Linkage Mechanism</a></h3>
+      <p class="pub-card__authors">Junxiang Li, Wenfu Xu, <strong>Wenshuo Li</strong>, Lei Yan*, Bin Liang*</p>
+      <p class="pub-card__venue">"Design and Development of Composite Linkage Mechanism for Cable-Driven Segmented Manipulator to Increase Synchronous Accuracy and Transmission Distance," <em>IEEE Robotics and Automation Letters</em>, vol. 29, 2023.</p>
+      <div class="pub-card__links">
+        <a class="pub-card__link" href="https://doi.org/10.1109/lra.2023.3330049">DOI</a>
+      </div>
+    </div>
+  </article>
 
-- **Academic Impact**: This work is 111 such as ... Our work solve the antagonism, such as [123](https://mp.weixin.qq.com/s/UkFadiUBy-Ymn-zhJ95JcQ)、[456](https://www.infoq.cn/article/tvy7hnin8bjvlm6g0myu).
-</div>
-</div> -->
+  <article class="pub-card">
+    <div class="pub-card__media">
+      <span class="pub-card__badge">TII 2024</span>
+      <img src="/images/pub/TII24.png" alt="Ex-situ six-axis sensing method for cable-driven redundant manipulators">
+    </div>
+    <div class="pub-card__body">
+      <h3 class="pub-card__title"><a href="https://doi.org/10.1109/TII.2024.3366272">Ex-Situ 6-axis Sensing Method</a></h3>
+      <p class="pub-card__authors">Boyang Lin, Wenfu Xu, <strong>Wenshuo Li</strong>, Han Yuan*, Bin Liang*</p>
+      <p class="pub-card__venue">"Ex-Situ Sensing Method for the End-Effector's Six-Dimensional Force and Link's Contact Force of Cable-Driven Redundant Manipulators," <em>IEEE Transactions on Industrial Informatics</em>, vol. 20, 2024.</p>
+      <div class="pub-card__links">
+        <a class="pub-card__link" href="https://doi.org/10.1109/TII.2024.3366272">DOI</a>
+      </div>
+    </div>
+  </article>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tmech 2024</div><img src='images/pub/Tmech24.png' alt="Tmech" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+  <article class="pub-card">
+    <div class="pub-card__media">
+      <span class="pub-card__badge">IR 2020</span>
+      <img src="/images/pub/ID20.png" alt="Static modeling and analysis of a soft manipulator considering environment contact">
+    </div>
+    <div class="pub-card__body">
+      <h3 class="pub-card__title"><a href="https://doi.org/10.1108/ir-07-2020-0131">Statics of Soft Manipulator Under Contact Environment</a></h3>
+      <p class="pub-card__authors">Yinglong Chen, <strong>Wenshuo Li</strong>, Yongjun Gong</p>
+      <p class="pub-card__venue">"Static modeling and analysis of soft manipulator considering environment contact based on segmented constant curvature method," <em>Industrial Robot: the international journal of robotics research and application</em>, 2020.</p>
+      <div class="pub-card__links">
+        <a class="pub-card__link" href="https://doi.org/10.1108/ir-07-2020-0131">DOI</a>
+      </div>
+    </div>
+  </article>
 
-[Hybrid Tension-Position Control](https://doi.org/10.1109/TMECH.2024.3406920) \\
-Bin Liang, **Wenshuo Li\***, Boyang Lin, Lei Yan, Xueqian Wang, Wenfu Xu\*, "Hybrid Tension-Position Control of Cable-Driven Serial Manipulator to Improve Accuracy and Avoid Cable Slack and Breakage," in *IEEE/ASME Transactions on Mechatronics*, **Accept**.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tmech 2023</div><img src='images/pub/Tmech23.png' alt="Tmech" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Force Sensing and Compliance Control](https://doi.org/10.1109/TMECH.2023.3263922) \\
-**Wenshuo Li**, Xi Huang, Lei Yan, Hongyang Cheng, Bin Liang, and Wenfu Xu, "Force Sensing and Compliance Control for a Cable-Driven Redundant Manipulator," in *IEEE/ASME Transactions on Mechatronics*, vol. 29, 2024.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RA-L 2023</div><img src='images/pub/RAL23.png' alt="RA-L" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Composite Linkage Mechanism](https://doi.org/10.1109/lra.2023.3330049) \\
-Junxiang Li, Wenfu Xu, **Wenshuo Li**, Lei Yan\*, Bin Liang\*, "Design and Development of Composite Linkage Mechanism for Cable-Driven Segmented Manipulator to Increase Synchronous Accuracy and Transmission Distance," in *IEEE Robotics and Automation Letters*, vol. 29, 2023.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TII 2024</div><img src='images/pub/TII24.png' alt="TII" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Ex-Situ 6-axis Sensing Method](https://doi.org/10.1109/TMECH.2023.3263922) \\
-Boyang Lin, Wenfu Xu, **Wenshuo Li**, Han Yuan\*, and Bin Liang\*, "Ex-Situ Sensing Method for the End-Effector’s Six-Dimensional Force and Link’s Contact Force of Cable-Driven Redundant Manipulators," in *IEEE Transactions on Industrial Informatics*, vol. 20, 2024.
-</div>
-</div>
-  
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Industrial Robot 2020</div><img src='images/pub/ID20.png' alt="Industrial Robot" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Statics of soft manipulator under contact environment](https://doi.org/10.1108/ir-07-2020-0131) \\
-Yinglong Chen, **Wenshuo Li**, Yongjun Gong, "Static modeling and analysis of soft manipulator considering environment contact based on segmented constant curvature method," in *Industrial Robot: the international journal of robotics research and application*, 2020.
-</div>
-</div>
-  
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCA 2022</div><img src='images/pub/IJCAS21.png' alt="IJCAS" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Kinematics of soft manipulator under contact environment](https://doi.org/10.1007/s12555-020-0559-6) \\
-YingLong Chen, **WenShuo Li**, Qiang Guo, YongJun Gong, "Kinematics modeling of soft manipulator interacting with environment using segmented variable curvature method," *International Journal of Control, Automation and Systems*, vol. 20, 2022.
-</div>
+  <article class="pub-card">
+    <div class="pub-card__media">
+      <span class="pub-card__badge">IJCAS 2022</span>
+      <img src="/images/pub/IJCAS21.png" alt="Kinematics modeling of soft manipulator interacting with environment">
+    </div>
+    <div class="pub-card__body">
+      <h3 class="pub-card__title"><a href="https://doi.org/10.1007/s12555-020-0559-6">Kinematics of Soft Manipulator Under Contact Environment</a></h3>
+      <p class="pub-card__authors">YingLong Chen, <strong>WenShuo Li</strong>, Qiang Guo, YongJun Gong</p>
+      <p class="pub-card__venue">"Kinematics modeling of soft manipulator interacting with environment using segmented variable curvature method," <em>International Journal of Control, Automation and Systems</em>, vol. 20, 2022.</p>
+      <div class="pub-card__links">
+        <a class="pub-card__link" href="https://doi.org/10.1007/s12555-020-0559-6">DOI</a>
+      </div>
+    </div>
+  </article>
 </div>
 
 ## 🗨️ Conferences

@@ -40,51 +40,108 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-.paper-box {
+.pub-list {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 0 1.75rem;
+}
+
+.pub-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #dfe5ee;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.06);
+}
+
+.pub-card__media {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    background: #f4f7fb;
+    aspect-ratio: 16 / 10;
+}
+
+.pub-card__media img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pub-card__badge {
+    position: absolute;
+    top: 0.65rem;
+    left: 0.65rem;
+    padding: 0.22rem 0.55rem;
+    border-radius: 999px;
+    color: #fff;
+    background: #17437d;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.pub-card__body {
+    min-width: 0;
+}
+
+.pub-card__title {
+    margin: 0 0 0.4rem;
+    font-size: 1.02rem;
+    line-height: 1.35;
+}
+
+.pub-card__title a {
+    color: #102a43;
+}
+
+.pub-card__authors,
+.pub-card__venue {
+    margin: 0 0 0.45rem;
+    line-height: 1.55;
+}
+
+.pub-card__venue {
+    color: #526173;
+}
+
+.pub-card__links {
     display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    gap: 0.45rem;
+    margin-top: 0.65rem;
+}
 
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
+.pub-card__link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 1.9rem;
+    padding: 0.32rem 0.7rem;
+    border: 1px solid #b9c7d8;
+    border-radius: 999px;
+    color: #17437d;
+    background: #f7f9fc;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.pub-card__link:hover {
+    border-color: #17437d;
+    background: #eef4fb;
+    text-decoration: none;
+}
+
+@include breakpoint($medium) {
+    .pub-card {
+        grid-template-columns: minmax(190px, 32%) 1fr;
+        align-items: center;
+        padding: 1.1rem;
     }
-    
-    .paper-box-text{
-        max-width: 100%;
-        order: 1;
-    }
-    
-    @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
-
-    }
-
-
 }
 
 $scroll_offset : 2em;
