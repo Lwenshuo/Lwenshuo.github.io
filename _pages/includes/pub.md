@@ -9,13 +9,28 @@
 <div class="pub-list">
   <article class="pub-card">
     <div class="pub-card__media">
+      <span class="pub-card__badge">TMECH 2026</span>
+      <img src="/images/pub/Tmech26.png" alt="Generalized task planning and optimal control for cable-driven serial manipulators">
+    </div>
+    <div class="pub-card__body">
+      <h3 class="pub-card__title"><a href="https://doi.org/10.1109/TMECH.2026.3675562">Morphology-Aware Task Planning</a></h3>
+      <p class="pub-card__authors"><strong>Wenshuo Li</strong>, Peisheng Huang, Lei Yan, Bin Liang, Wenfu Xu</p>
+      <p class="pub-card__venue">"Integrating Morphology Into Task-Space: Generalized Task Planning and Optimal Control for Cable-Driven Serial Manipulators," <em>IEEE/ASME Transactions on Mechatronics</em>, 2026, pp. 1-12.</p>
+      <div class="pub-card__links">
+        <a class="pub-card__link" href="https://doi.org/10.1109/TMECH.2026.3675562">DOI</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub-card">
+    <div class="pub-card__media">
       <span class="pub-card__badge">TMECH 2024</span>
       <img src="/images/pub/Tmech24.png" alt="Hybrid tension-position control for cable-driven serial manipulator">
     </div>
     <div class="pub-card__body">
       <h3 class="pub-card__title"><a href="https://doi.org/10.1109/TMECH.2024.3406920">Hybrid Tension-Position Control</a></h3>
       <p class="pub-card__authors">Bin Liang, <strong>Wenshuo Li*</strong>, Boyang Lin, Lei Yan, Xueqian Wang, Wenfu Xu*</p>
-      <p class="pub-card__venue">"Hybrid Tension-Position Control of Cable-Driven Serial Manipulator to Improve Accuracy and Avoid Cable Slack and Breakage," <em>IEEE/ASME Transactions on Mechatronics</em>, accepted.</p>
+      <p class="pub-card__venue">"Hybrid Tension-Position Control of Cable-Driven Serial Manipulator to Improve Accuracy and Avoid Cable Slack and Breakage," <em>IEEE/ASME Transactions on Mechatronics</em>, vol. 30, no. 2, pp. 1072-1083, Apr. 2025.</p>
       <div class="pub-card__links">
         <a class="pub-card__link" href="https://doi.org/10.1109/TMECH.2024.3406920">DOI</a>
       </div>

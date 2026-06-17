@@ -3,13 +3,28 @@
 <div class="pub-list">
   <article class="pub-card">
     <div class="pub-card__media">
+      <span class="pub-card__badge">TMECH 2026</span>
+      <img src="/images/pub/Tmech26.png" alt="绳驱串联机械臂广义任务规划与最优控制">
+    </div>
+    <div class="pub-card__body">
+      <h3 class="pub-card__title"><a href="https://doi.org/10.1109/TMECH.2026.3675562">Morphology-Aware Task Planning</a></h3>
+      <p class="pub-card__authors"><strong>Wenshuo Li</strong>, Peisheng Huang, Lei Yan, Bin Liang, Wenfu Xu</p>
+      <p class="pub-card__venue"><em>IEEE/ASME Transactions on Mechatronics</em>, 2026.</p>
+      <div class="pub-card__links">
+        <a class="pub-card__link" href="https://doi.org/10.1109/TMECH.2026.3675562">DOI</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub-card">
+    <div class="pub-card__media">
       <span class="pub-card__badge">TMECH 2024</span>
       <img src="/images/pub/Tmech24.png" alt="绳驱串联机械臂混合张力-位置控制">
     </div>
     <div class="pub-card__body">
       <h3 class="pub-card__title"><a href="https://doi.org/10.1109/TMECH.2024.3406920">Hybrid Tension-Position Control</a></h3>
       <p class="pub-card__authors">Bin Liang, <strong>Wenshuo Li*</strong>, Boyang Lin, Lei Yan, Xueqian Wang, Wenfu Xu*</p>
-      <p class="pub-card__venue"><em>IEEE/ASME Transactions on Mechatronics</em>, 2024.</p>
+      <p class="pub-card__venue"><em>IEEE/ASME Transactions on Mechatronics</em>, vol. 30, no. 2, pp. 1072-1083, Apr. 2025.</p>
       <div class="pub-card__links">
         <a class="pub-card__link" href="https://doi.org/10.1109/TMECH.2024.3406920">DOI</a>
       </div>
